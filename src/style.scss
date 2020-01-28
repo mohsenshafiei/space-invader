@@ -1,0 +1,18 @@
+.container {
+  width: 680px;
+  height: 680px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("assets/background.png");
+  overflow: hidden;
+  box-shadow: none;
+  outline: none;
+  border: none;
+
+}
+.spaceship {
+  z-index: 10;
+  position: absolute;
+}
