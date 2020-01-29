@@ -4,11 +4,7 @@ import { useInterval } from "./useInterval";
 import playerImage from './assets/player.png';
 import enemyImage from './assets/enemy.png';
 import bulletImage from './assets/bullet.png';
-import {
-  START_POSITION,
-  START_ENEMIES_POSITION,
-  GAME_SPEED
-} from './constants';
+import { START_POSITION, START_ENEMIES_POSITION, GAME_SPEED } from './constants';
 
 export const SpaceInvader = () => {
   const ref = React.useRef(null);
